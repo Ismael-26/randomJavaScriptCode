@@ -1,0 +1,34 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  gap: 10px;
+
+  background-color: #ccc;
+
+  margin-top: 100px;
+}
+
+form input[type="text"] {
+  padding: 10px; /* Adds space inside the input */
+  border: 1px solid #ccc; /* Adds a light border */
+  border-radius: 5px; /* Rounds corners */
+  font-size: 16px;
+}
+
+form input[type="number"] {
+  padding: 10px; /* Adds space inside the input */
+  border: 1px solid #ccc; /* Adds a light border */
+  border-radius: 5px; /* Rounds corners */
+  font-size: 16px;
+}
+
+form input[type="submit"] {
+  width: 20%;
+  padding: 10px; /* Adds space inside the input */
+  border: 1px solid #ccc; /* Adds a light border */
+  border-radius: 5px; /* Rounds corners */
+  font-size: 16px;
+}
